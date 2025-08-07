@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CountdownTimer : MonoBehaviour
 {
+    [SerializeField] private EndGameUI EndGameUI;
     public event Action OnCountdownFinished;
     public event Action <int> OnCountdownUpdated;
     private const int COUNTDOWNTIME = 3; 
@@ -18,14 +19,14 @@ public class CountdownTimer : MonoBehaviour
     private IEnumerator CountdownCoroutine()
     {
         _counterValue = COUNTDOWNTIME;
-        while(_counterValue>0)
+        for(int i = COUNTDOWNTIME;  i > 0; i--)
         {
-            Debug.Log(_counterValue);
-            OnCountdownUpdated?.Invoke(_counterValue);
+            EndGameUI.SendText(UITextType.Countdown, _counterValue.ToString());
             _counterValue--;
             yield return new WaitForSeconds(_delayBetweenNumbers);
         }
-        Debug.Log("Go!");
+        EndGameUI.SendText(UITextType.Countdown, "GO!");
+        yield return new WaitForSeconds(_delayBetweenNumbers/2);
         OnCountdownFinished?.Invoke();
     }
 }

@@ -64,6 +64,7 @@
     <Compile Include="Assets\External\Ash Assets\Sim-Cade Vehicle Physics\Scripts\TireSmoke.cs" />
     <Compile Include="Assets\Scripts\LevelCore\GameState.cs" />
     <Compile Include="Assets\External\EasyRoads3D\Scripts\ERVegetationStudio.cs" />
+    <Compile Include="Assets\Scripts\Player\GhostPlayer.cs" />
     <Compile Include="Assets\Scripts\LevelCore\GameManager.cs" />
     <Compile Include="Assets\External\Ash Assets\Sim-Cade Vehicle Physics\Scripts\GearSystem.cs" />
     <Compile Include="Assets\Scripts\InterSessionData\GameSession.cs" />
@@ -80,9 +81,11 @@
     <Compile Include="Assets\Scripts\LevelCore\FinishLine.cs" />
     <Compile Include="Assets\Scripts\LevelCore\CountDownTimer.cs" />
     <Compile Include="Assets\Scripts\UI\MainMenuUI.cs" />
+    <Compile Include="Assets\Scripts\UI\UITextType.cs" />
     <Compile Include="Assets\Scripts\PathLogic\PathRecorder.cs" />
     <Compile Include="Assets\External\Ash Assets\Sim-Cade Vehicle Physics\Scripts\Skidmarks.cs" />
     <Compile Include="Assets\Scripts\LevelCore\LevelBootstrap.cs" />
+    <Compile Include="Assets\Scripts\Factories\GhostPlayerFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

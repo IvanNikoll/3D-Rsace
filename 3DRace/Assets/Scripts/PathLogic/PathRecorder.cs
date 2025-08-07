@@ -1,4 +1,6 @@
+using System.Collections.Generic;
 using UnityEngine;
+using static GhostPath;
 
 public class PathRecorder : MonoBehaviour
 {
@@ -24,5 +26,19 @@ public class PathRecorder : MonoBehaviour
             ghostPath.AddFrame(transform.position, transform.rotation);
             timer = 0f;
         }
+    }
+
+    public GhostPath ProvidePath()
+    {
+        GhostPath copy = new GhostPath();
+        foreach (var frame in ghostPath.frames)
+        {
+            copy.frames.Add(new GhostFrame
+            {
+                position = frame.position,
+                rotation = frame.rotation
+            });
+        }
+        return copy;
     }
 }
