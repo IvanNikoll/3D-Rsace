@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\GitRepositories\\TestTask 3DRace\\3DRace\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|D:\\GitRepositories\\TestTask 3DRace\\3DRace\\assets\\scripts\\intersessiondata\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|d:\\gitrepositories\\testtask 3drace\\3drace\\assets\\scripts\\intersessiondata\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\intersessiondata\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\ghostplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|d:\\gitrepositories\\testtask 3drace\\3drace\\assets\\scripts\\factories\\ghostplayerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|D:\\GitRepositories\\TestTask 3DRace\\3DRace\\assets\\scripts\\factories\\ghostplayerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\factories\\ghostplayerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,7 +31,7 @@
       "RelativeMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pathlogic\\ghostpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|d:\\gitrepositories\\testtask 3drace\\3drace\\assets\\scripts\\levelcore\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|D:\\GitRepositories\\TestTask 3DRace\\3DRace\\assets\\scripts\\levelcore\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelcore\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -74,8 +74,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Factories\\GhostPlayerFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T16:49:57.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T16:49:57.527Z"
             },
             {
               "$type": "Document",
@@ -87,8 +86,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\GhostPlayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T12:12:15.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T12:12:15.628Z"
             },
             {
               "$type": "Document",
@@ -100,8 +98,7 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\UITextType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T11:29:03.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T11:29:03.511Z"
             },
             {
               "$type": "Document",
@@ -113,8 +110,7 @@
               "RelativeToolTip": "Assets\\Scripts\\LevelCore\\LevelBootstrap.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T10:55:13.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T10:55:13.918Z"
             },
             {
               "$type": "Document",
@@ -163,8 +159,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PathLogic\\PathRecorder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T08:46:11.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T08:46:11.618Z"
             },
             {
               "$type": "Document",
@@ -176,8 +171,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PathLogic\\GhostPath.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T08:44:57.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T08:44:57.289Z"
             },
             {
               "$type": "Document",
@@ -213,8 +207,7 @@
               "RelativeToolTip": "Assets\\Scripts\\LevelCore\\GameManager.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAYwCMAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T07:28:12.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T07:28:12.254Z"
             },
             {
               "$type": "Document",
