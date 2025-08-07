@@ -56,9 +56,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="D:\GitRepositories\TestTask 3DRace\3DRace\Assets\External\EasyRoads3D\lib\EasyRoads3Dv3.dll" />
-    <Analyzer Include="D:\GitRepositories\TestTask 3DRace\3DRace\Assets\External\EasyRoads3D\Editor\EasyRoads3Dv3Editor.dll" />
-    <Analyzer Include="D:\GitRepositories\TestTask 3DRace\3DRace\Assets\External\EasyRoads3D\lib\DelaunayER.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
@@ -69,36 +66,66 @@
     <Compile Include="Assets\External\EasyRoads3D\Scripts\ERVegetationStudio.cs" />
     <Compile Include="Assets\Scripts\LevelCore\GameManager.cs" />
     <Compile Include="Assets\External\Ash Assets\Sim-Cade Vehicle Physics\Scripts\GearSystem.cs" />
+    <Compile Include="Assets\Scripts\InterSessionData\GameSession.cs" />
     <Compile Include="Assets\External\Ash Assets\Sim-Cade Vehicle Physics\Scripts\WheelSkid.cs" />
     <Compile Include="Assets\External\Ash Assets\Sim-Cade Vehicle Physics\Scripts\ResetVehicle.cs" />
+    <Compile Include="Assets\Scripts\LevelCore\SceneLoader.cs" />
     <Compile Include="Assets\External\Ash Assets\Sim-Cade Vehicle Physics\Scripts\AudioSystem.cs" />
     <Compile Include="Assets\External\Ash Assets\Sim-Cade Vehicle Physics\Scripts\SimcadeVehicleController.cs" />
+    <Compile Include="Assets\Scripts\UI\EndGameUI.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\External\EasyRoads3D\Scripts\runtimeScript.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\PathLogic\GhostPath.cs" />
     <Compile Include="Assets\Scripts\LevelCore\FinishLine.cs" />
     <Compile Include="Assets\Scripts\LevelCore\CountDownTimer.cs" />
+    <Compile Include="Assets\Scripts\UI\MainMenuUI.cs" />
+    <Compile Include="Assets\Scripts\PathLogic\PathRecorder.cs" />
     <Compile Include="Assets\External\Ash Assets\Sim-Cade Vehicle Physics\Scripts\Skidmarks.cs" />
+    <Compile Include="Assets\Scripts\LevelCore\LevelBootstrap.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets\External\EasyRoads3D\shaders\ER Road Detail.shader" />
     <None Include="Assets\External\EasyRoads3D\shaders\ER Road.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\External\EasyRoads3D\Resources\custom prefabs\_custom prefabs.txt" />
     <None Include="Assets\External\EasyRoads3D\prefab meshes\_custom prefabs.txt" />
     <None Include="Assets\External\EasyRoads3D\shaders\ER Road Transparency.shader" />
     <None Include="Assets\External\EasyRoads3D\SRP Support Packages\_Readme.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\External\EasyRoads3D\Release - Install Notes.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\External\EasyRoads3D\lib\EasyRoads3Dv3.dll" />
+    <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
     <None Include="Assets\External\EasyRoads3D\shaders\ER Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\External\EasyRoads3D\lib\DelaunayER.dll" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\External\Ash Assets\Sim-Cade Vehicle Physics\Materials\Skidmarks.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\External\EasyRoads3D\_URP &amp; HDRP Readme.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\External\EasyRoads3D\shaders\ER Road Mask Blend.shader" />
     <None Include="Assets\External\EasyRoads3D\shaders\ER I Connector Blend.shader" />
     <None Include="Assets\External\EasyRoads3D\_Readme.txt" />
     <None Include="Assets\External\EasyRoads3D\shaders\ER Road Decal.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\External\EasyRoads3D\shaders\Legacy\EasyRoads3D - Unity 2018 Standard.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\External\EasyRoads3D\prefab sources\_custom prefabs.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\External\EasyRoads3D\lib\DelaunayER.txt" />
   </ItemGroup>
   <ItemGroup>

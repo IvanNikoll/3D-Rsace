@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "D:\\GitRepositories\\TestTask 3DRace\\3DRace\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|d:\\gitrepositories\\testtask 3drace\\3drace\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|D:\\GitRepositories\\TestTask 3DRace\\3DRace\\assets\\scripts\\levelcore\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelcore\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|d:\\gitrepositories\\testtask 3drace\\3drace\\assets\\scripts\\levelcore\\levelbootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelcore\\levelbootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|d:\\gitrepositories\\testtask 3drace\\3drace\\assets\\scripts\\intersessiondata\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\intersessiondata\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|D:\\GitRepositories\\TestTask 3DRace\\3DRace\\assets\\scripts\\ui\\endgameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\endgameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|D:\\GitRepositories\\TestTask 3DRace\\3DRace\\assets\\scripts\\ui\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|D:\\GitRepositories\\TestTask 3DRace\\3DRace\\assets\\scripts\\pathlogic\\pathrecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pathlogic\\pathrecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|D:\\GitRepositories\\TestTask 3DRace\\3DRace\\assets\\scripts\\pathlogic\\ghostpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pathlogic\\ghostpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|D:\\GitRepositories\\TestTask 3DRace\\3DRace\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|d:\\gitrepositories\\testtask 3drace\\3drace\\assets\\external\\ash assets\\sim-cade vehicle physics\\scripts\\simcadevehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|D:\\GitRepositories\\TestTask 3DRace\\3DRace\\assets\\external\\ash assets\\sim-cade vehicle physics\\scripts\\simcadevehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|solutionrelative:assets\\external\\ash assets\\sim-cade vehicle physics\\scripts\\simcadevehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|d:\\gitrepositories\\testtask 3drace\\3drace\\assets\\scripts\\levelcore\\countdowntimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|D:\\GitRepositories\\TestTask 3DRace\\3DRace\\assets\\scripts\\levelcore\\countdowntimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelcore\\countdowntimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|d:\\gitrepositories\\testtask 3drace\\3drace\\assets\\scripts\\levelcore\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{062E30E8-EA1D-4DC6-F827-7E7358253885}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelcore\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +50,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "LevelBootstrap.cs",
+              "DocumentMoniker": "D:\\GitRepositories\\TestTask 3DRace\\3DRace\\Assets\\Scripts\\LevelCore\\LevelBootstrap.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelCore\\LevelBootstrap.cs",
+              "ToolTip": "D:\\GitRepositories\\TestTask 3DRace\\3DRace\\Assets\\Scripts\\LevelCore\\LevelBootstrap.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelCore\\LevelBootstrap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T10:55:13.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameSession.cs",
+              "DocumentMoniker": "D:\\GitRepositories\\TestTask 3DRace\\3DRace\\Assets\\Scripts\\InterSessionData\\GameSession.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InterSessionData\\GameSession.cs",
+              "ToolTip": "D:\\GitRepositories\\TestTask 3DRace\\3DRace\\Assets\\Scripts\\InterSessionData\\GameSession.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InterSessionData\\GameSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T10:14:32.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EndGameUI.cs",
+              "DocumentMoniker": "D:\\GitRepositories\\TestTask 3DRace\\3DRace\\Assets\\Scripts\\UI\\EndGameUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\EndGameUI.cs",
+              "ToolTip": "D:\\GitRepositories\\TestTask 3DRace\\3DRace\\Assets\\Scripts\\UI\\EndGameUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\EndGameUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T09:59:23.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainMenuUI.cs",
+              "DocumentMoniker": "D:\\GitRepositories\\TestTask 3DRace\\3DRace\\Assets\\Scripts\\UI\\MainMenuUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MainMenuUI.cs",
+              "ToolTip": "D:\\GitRepositories\\TestTask 3DRace\\3DRace\\Assets\\Scripts\\UI\\MainMenuUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\MainMenuUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T09:50:30.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PathRecorder.cs",
+              "DocumentMoniker": "D:\\GitRepositories\\TestTask 3DRace\\3DRace\\Assets\\Scripts\\PathLogic\\PathRecorder.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PathLogic\\PathRecorder.cs",
+              "ToolTip": "D:\\GitRepositories\\TestTask 3DRace\\3DRace\\Assets\\Scripts\\PathLogic\\PathRecorder.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PathLogic\\PathRecorder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T08:46:11.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GhostPath.cs",
+              "DocumentMoniker": "D:\\GitRepositories\\TestTask 3DRace\\3DRace\\Assets\\Scripts\\PathLogic\\GhostPath.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PathLogic\\GhostPath.cs",
+              "ToolTip": "D:\\GitRepositories\\TestTask 3DRace\\3DRace\\Assets\\Scripts\\PathLogic\\GhostPath.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PathLogic\\GhostPath.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T08:44:57.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "SimcadeVehicleController.cs",
               "DocumentMoniker": "D:\\GitRepositories\\TestTask 3DRace\\3DRace\\Assets\\External\\Ash Assets\\Sim-Cade Vehicle Physics\\Scripts\\SimcadeVehicleController.cs",
               "RelativeDocumentMoniker": "Assets\\External\\Ash Assets\\Sim-Cade Vehicle Physics\\Scripts\\SimcadeVehicleController.cs",
@@ -38,12 +136,11 @@
               "RelativeToolTip": "Assets\\External\\Ash Assets\\Sim-Cade Vehicle Physics\\Scripts\\SimcadeVehicleController.cs",
               "ViewState": "AgIAAFIAAAAAAAAAAAAQwBMBAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T07:46:27.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T07:46:27.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "CountDownTimer.cs",
               "DocumentMoniker": "D:\\GitRepositories\\TestTask 3DRace\\3DRace\\Assets\\Scripts\\LevelCore\\CountDownTimer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LevelCore\\CountDownTimer.cs",
@@ -51,25 +148,24 @@
               "RelativeToolTip": "Assets\\Scripts\\LevelCore\\CountDownTimer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T07:41:53.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T07:41:53.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\GitRepositories\\TestTask 3DRace\\3DRace\\Assets\\Scripts\\LevelCore\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LevelCore\\GameManager.cs",
               "ToolTip": "D:\\GitRepositories\\TestTask 3DRace\\3DRace\\Assets\\Scripts\\LevelCore\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\LevelCore\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-07T07:28:12.254Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\GitRepositories\\TestTask 3DRace\\3DRace\\Assets\\Scripts\\Player\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
@@ -77,8 +173,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T07:25:39.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T07:25:39.582Z"
             }
           ]
         }

@@ -9,7 +9,6 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private CountdownTimer countdownTimer;
     [SerializeField] private FinishLine finishLine;
-
     private void Awake()
     {
         if (Instance != null && Instance != this) Destroy(gameObject);
