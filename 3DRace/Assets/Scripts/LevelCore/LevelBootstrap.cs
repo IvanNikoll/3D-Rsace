@@ -1,8 +1,12 @@
 using UnityEngine;
 
+/// <summary>
+///This class is used to initialize player and UI a the start of the round  
+/// </summary>
+
 public class LevelBootstrap : MonoBehaviour
 {
-   [SerializeField] private EndGameUI endGameUI;
+   [SerializeField] private GameUI endGameUI;
    [SerializeField] private PathRecorder player;
 
     private void Start()

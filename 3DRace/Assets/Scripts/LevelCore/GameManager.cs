@@ -1,7 +1,10 @@
 ﻿using System;
-using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
 
+/// <summary>
+/// This is a singleton class which controls and holds information about state of the game.
+/// Additionaly, it checks whether the ghost player is needed for this round and requests it if required.
+/// </summary>
 public class GameManager : MonoBehaviour
 {
     public event Action<GameState> OnGameStateChanged;
@@ -11,7 +14,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GhostPlayer ghostPlayer;
     [SerializeField] private CountdownTimer countdownTimer;
     [SerializeField] private FinishLine finishLine;
-    [SerializeField] private EndGameUI endGameUI;
+    [SerializeField] private GameUI endGameUI;
     [SerializeField] private GhostPlayerFactory ghostPlayerFactory;
     private bool _IsCountdownStarted = false;
     private void Awake()
@@ -28,6 +31,9 @@ public class GameManager : MonoBehaviour
         Subscribe();
     }
 
+    /// <summary>
+    /// Gets number of round.
+    /// </summary>
     private void CheckRound()
     {
         if (GameSession.Instance.Try == 1)
@@ -74,6 +80,5 @@ public class GameManager : MonoBehaviour
     {
         CurrentState = newState;
         OnGameStateChanged?.Invoke(CurrentState);
-        Debug.Log("Game State: " + newState);
     }
 }

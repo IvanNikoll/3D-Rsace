@@ -1,6 +1,10 @@
 using Ashsvp;
 using UnityEngine;
 
+/// <summary>
+/// This Class blocks or allows the player to control the car depending on the game state.
+/// </summary>
+
 [RequireComponent(typeof(SimcadeVehicleController))]
 public class PlayerController : MonoBehaviour
 {

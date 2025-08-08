@@ -1,14 +1,18 @@
 ﻿using UnityEngine;
 
+/// <summary>
+/// This class controls a ghost player.
+/// </summary>
+
 public class GhostPlayer : MonoBehaviour
 {
     [SerializeField] private GhostPath ghostPath;
-    [SerializeField] private float playbackSpeed = 1f;
-    [SerializeField] private float recordInterval = 0.05f;
-
-    private int currentFrame = 0;
-    private float t = 0f;
-    private bool _isRacing = false; 
+    private float _playbackSpeed = 1f;
+    private float _recordInterval = 0.05f;
+    private int _currentFrame = 0;
+    private float _t = 0f;
+    private bool _isRacing = false;
+    
     public void InitializeGhost(GhostPath savedGhostPath)
     {
         ghostPath = savedGhostPath;
@@ -21,6 +25,10 @@ public class GhostPlayer : MonoBehaviour
         if(state == GameState.Playing)
             _isRacing = true;
     }
+
+    /// <summary>
+    /// Checks if the path has got data recorded and moves the ghost to the start position. 
+    /// </summary>
 
     private void StartRound()
     {
@@ -36,25 +44,25 @@ public class GhostPlayer : MonoBehaviour
 
     private void Update()
     {
-        if (!_isRacing || ghostPath == null || currentFrame >= ghostPath.frames.Count - 1)
+        if (!_isRacing || ghostPath == null || _currentFrame >= ghostPath.frames.Count - 1)
             return;
         MoveGhost();
     }
 
     private void MoveGhost()
     {
-        var from = ghostPath.frames[currentFrame];
-        var to = ghostPath.frames[currentFrame + 1];
-        t += Time.deltaTime * playbackSpeed / recordInterval;
-        transform.position = Vector3.Lerp(from.position, to.position, t);
-        transform.rotation = Quaternion.Slerp(from.rotation, to.rotation, t);
+        var from = ghostPath.frames[_currentFrame];
+        var to = ghostPath.frames[_currentFrame + 1];
+        _t += Time.deltaTime * _playbackSpeed / _recordInterval;
+        transform.position = Vector3.Lerp(from.position, to.position, _t);
+        transform.rotation = Quaternion.Slerp(from.rotation, to.rotation, _t);
 
-        if (t >= 1f)
+        if (_t >= 1f)
         {
-            t = 0f;
-            currentFrame++;
+            _t = 0f;
+            _currentFrame++;
 
-            if (currentFrame >= ghostPath.frames.Count - 1)
+            if (_currentFrame >= ghostPath.frames.Count - 1)
             {
                 enabled = false;
             }

@@ -1,6 +1,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// This class holds information about the player path 
+/// </summary>
+
 [CreateAssetMenu(fileName = "NewGhostPath", menuName = "Ghost/GhostPath")]
 public class GhostPath : ScriptableObject
 {

@@ -2,11 +2,13 @@
 using System.Collections;
 using UnityEngine;
 
+/// <summary>
+/// This class provides countdown logic at the beginning of the round.
+/// </summary>
 public class CountdownTimer : MonoBehaviour
 {
-    [SerializeField] private EndGameUI EndGameUI;
+    [SerializeField] private GameUI EndGameUI;
     public event Action OnCountdownFinished;
-    public event Action <int> OnCountdownUpdated;
     private const int COUNTDOWNTIME = 3; 
     private int _counterValue;
     private float _delayBetweenNumbers = 1f;

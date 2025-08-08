@@ -1,13 +1,16 @@
-using System.Collections.Generic;
 using UnityEngine;
 using static GhostPath;
+
+/// <summary>
+/// This class records the player path and provides the information to the GameSession class  
+/// </summary>
 
 public class PathRecorder : MonoBehaviour
 {
     [SerializeField] private GhostPath ghostPath;
     [SerializeField] private float recordInterval = 0.05f;
 
-    private float timer;
+    private float _timer;
 
     private void Start()
     {
@@ -19,12 +22,12 @@ public class PathRecorder : MonoBehaviour
         if (GameManager.Instance.CurrentState != GameState.Playing)
             return;
 
-        timer += Time.deltaTime;
+        _timer += Time.deltaTime;
 
-        if (timer >= recordInterval)
+        if (_timer >= recordInterval)
         {
             ghostPath.AddFrame(transform.position, transform.rotation);
-            timer = 0f;
+            _timer = 0f;
         }
     }
 

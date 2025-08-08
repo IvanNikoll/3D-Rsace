@@ -1,5 +1,8 @@
 using UnityEngine;
 
+/// <summary>
+/// Instanciates a ghost player for the 2nd round
+/// </summary>
 public class GhostPlayerFactory : MonoBehaviour
 {
     [SerializeField] private GhostPlayer ghostPrefab;

@@ -1,4 +1,9 @@
+using UnityEngine;
 using UnityEngine.SceneManagement;
+
+/// <summary>
+/// This class provides transition between scenes. 
+/// </summary>
 
 public static class SceneLoader
 {
@@ -14,10 +19,10 @@ public static class SceneLoader
 
     public static void QuitGame()
     {
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
+#if UNITY_WEBGL
+        Time.timeScale = 0f;
 #else
-        Application.Quit();
+    Application.Quit();
 #endif
     }
 }
